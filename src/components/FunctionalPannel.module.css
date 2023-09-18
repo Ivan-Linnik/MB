@@ -1,0 +1,67 @@
+.functionalPannel {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: snow;
+
+}
+
+.infoText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.toggleLists {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.toggleLists>a {
+    padding: 5px;
+
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: transparent;
+
+
+    border: 1px solid transparent;
+
+    transition: all 0.2s ease-in-out;
+
+    cursor: pointer;
+}
+
+.toggleLists>a:hover {
+    color: snow;
+    background-color: #646464;
+}
+
+.functionalPannel>button {
+    padding: 5px;
+
+    font: inherit;
+    font-size: 0.8rem;
+
+    color: inherit;
+    background-color: unset;
+    border: 1px solid #424242;
+
+    transition: all 0.2s ease-in-out;
+
+    cursor: pointer;
+}
+
+.functionalPannel>button:hover {
+    color: snow;
+    background-color: #424242;
+}

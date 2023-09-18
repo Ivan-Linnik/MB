@@ -1,0 +1,45 @@
+.formBody {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.input {
+    width: 80%;
+    padding: 10px;
+
+    font: inherit;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    background-color: snow;
+}
+
+.input::placeholder {
+    color: #42424249;
+}
+
+.button {
+    padding: 10px 20px;
+
+    font: inherit;
+    text-transform: uppercase;
+
+    color: inherit;
+    outline: none;
+    border: none;
+    background-color: snow;
+
+    transition: all 0.2s ease-in-out;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    color: snow;
+    background-color: #424242;
+
+}
